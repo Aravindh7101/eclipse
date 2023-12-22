@@ -1,0 +1,10 @@
+  java -oops
+
+* java is a object oriented programming laguage
+* java is paltform independent - it means it used .class and .java 
+       it only used in jdk(java developement kit )
+* Jvm(java virtual machine) it is not indepentent platform
+   it used in jre(java runtime environment)
+* c is a procedure method , it followed only rolls
+* j1se - java 1 standard edition(oops and object)
+*j2ee java 2 enterprise edition (web service and spring boot)

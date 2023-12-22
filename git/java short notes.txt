@@ -1,0 +1,101 @@
+
+----java short defination----
+
+* class - it measns collection of object it also allowed state and behaviour 
+* method means state and behaviour (a function is called method )
+* object collection of method called object 
+* object 
+   1)Object can be declare in three types 
+    i)scan myboj = new scan(); -- this is object 
+    ii) myobj.print();   -- this is method calling 
+    iii)private void print(){} --- this is called method signature
+    iv) private void print(){
+      ///inside curly bracked code are function its called method function 
+      ///the function saved in the method calling ex..myobj.print();       
+}
+
+*void --- it does not return any values 
+ ex.... private void print(){} ---  inthis method doesnot return any values 
+* ptivate int print(){   ///this is method structure
+   int a=10;
+   return a;  ---what value we want return that value data type should mention in the method structure 
+}
+
+* int c = myobj.print();  - the return values now stored in the int c variable now c = 10 .
+* the return value we used in other object 
+ex  --- 
+    int c = myobj.print():
+           myobj.paste();
+   1.first we want create one method defination 
+   private void paste(int returnvalue){      // we shound mention data type but variable name not neccesery same any variable name we wnat declare 
+     int b = returnvalue;  /// returnvalue now 10; now b = 10;
+     
+}
+*Accesss modifiers  --Encapsulation
+    1.Public  -- all the person know ex.advertisment boart
+    2.Private  -- some person only knoe ex. manager salry details
+    3.Protect  -- 
+    4.Default  -- pacakges 
+
+    its called encapsulation the 4 modifiers acces encapsulation 
+    it means data hidding or data protecting
+    
+ i)Private - if you want create private object , that object only create in the same class, not create another class 
+
+  Private print myobj = new Print();
+ II)Public - you can create object in another class 
+    Public print myobj = new print();
+
+  new keyword -- used to allocate new space inthe class 
+
+ **** same package classes only alllowed to create object another package class name object not created 
+
+*Public static void main(striing [] arg)   {}
+   static --means unwanted bytes remove 
+          --it runs without object
+  void -- no return value 
+  main -- main method is important for program execute , and calling the program 
+
+* Polymorphisam -Method overloading --compile time polymorphisam
+  it means same method name but different value and different data types 
+    ex... 
+         myobj.print("aravind",123,"ara@12");  // this is called for parameter 
+         myobj.print("aravind",123,1254,"ara@12")
+
+private void print(string name , int no, string email){}; // should mentioned above give parameter data type but variable name any name will give 
+private void print (string name , int no,int no2, string email){}; /// this is called arguments 
+
+  in the above method function we will find what method calling to what method function so its compile time polymorpisam 
+
+* Array[]
+  array define two types 
+   1) int [] name = new int [500];
+   2) int[] no ={}
+
+  array used for all values in one data types , in array canot change the data type but array list can change data type 
+  
+* nested if else 
+   if(){
+         if(){
+          if(){
+        }
+    }
+   }
+
+multiple if else statement acces nested if 
+
+* nested for loop
+
+same as above nested if like multiple for loop in one main for loop
+    for(){
+         for(){
+          for(){
+        }
+    }
+   }
+
+*static 
+
+ it used for the declare the class of state and behaciour 
+
+* Instance  means -- object 

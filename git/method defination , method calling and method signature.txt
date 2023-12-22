@@ -1,0 +1,27 @@
+package objects;
+
+public class Parking {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//class - collection of object
+		//object means --- combination of state and behavior
+		
+		Parking swift =new Parking();
+		Parking audii =new Parking();
+		      // |
+		      // |
+		      // .
+		    //Method calling 
+
+	}
+	
+	private void swift() {  //Method signature
+		
+		// Method defination
+		// Method defination shoud be in main method outside 
+		// Method shoud be in inside the class 
+	}
+
+}

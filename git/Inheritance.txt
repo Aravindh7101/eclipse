@@ -1,0 +1,17 @@
+------Inheritance---
+1.Single Inheritance
+2.Hierarchical Inheritance
+3.Multiple Inheritance
+
+
+
+***Single Inheritance
+      In one child class one and only parents 
+  ex... 
+      suriya extends Sivakumar{}
+
+***Hierarchical Inheritance
+       one parent class used multiple child class 
+
+  ex..... suriya extends Sivakumar{}
+          karthick extends Sivakumar

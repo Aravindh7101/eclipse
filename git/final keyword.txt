@@ -1,0 +1,17 @@
+==final===keyword
+
+// Final key word cannot be changed varible 
+ex...                          ||||
+      Class one {               |||| Class another extets one{
+                                      class myobj =new class
+     final int keyvalue =10;   |||      myobj.keyvalue = 10;//this cannot be changed value only used in syso
+
+}
+
+// final method cannot be overridden
+   final public void play(){}
+   ex... in another class we cannot create play same method name  
+
+// Final class cannot be inheritance 
+
+  public final class Vijay(){}

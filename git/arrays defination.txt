@@ -1,0 +1,27 @@
+Arrays-it used to stop the no.of data type  and variable
+ex...
+  int name1=
+  int name2=
+  int name3=
+  ....
+  int name100=
+ex....array
+ int[]name=new int[100]    --the total value is same data type in int
+
+ it means collection of same data type 
+
+* two types of declare array
+   1) int[] tamil = new int[100]
+   2) int [] tamil={90,20,40,10,50}
+
+ * in array used objects 
+ * the main purpose of array used for data type same 
+
+
+
+array disadvantage
+* static memory - means we already declare 5 space but we only used 3 sapce 
+   remaining 2 sapce is waste. so this problem will solve used in "dynamic"
+* another data typee not used in array
+* continues declararion --[1,2,3,4,5] we want first index 5{5,1,2,3,4] this process 
+   will hapenn it takes some time so slowness issue happen in cintinues declaration 
